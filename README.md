@@ -8,6 +8,8 @@ Ao clicar no botão "Eu quero", o carro escolhido e o identificador do usuário 
 
 A cada 10 segundos, é feita uma requisição POST na URL https://www.wswork.com.br/cars/leads/ (presente na linha 35 da visualização do carro).
 
+Observação: Login e senha devem ser preenchidos (Pode usar qualquer valor simbólico)
+
 Dependências usadas:
 - [http] para realizar as requisições;
 - [sqflite] para realizar as comunicações com o banco de dados;
